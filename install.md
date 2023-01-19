@@ -37,4 +37,7 @@ nav_order: 2
 ['t3_safe_key'] 			 	 = {['name'] = 't3_safe_key', 			 		['label'] = 'Key', 		['weight'] = 500, 		['type'] = 'item', 		['image'] = 'safe_key.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Probably unlocks something'},
 ```
 
+## Add qb-burglary to your resource folder
+It is recommended that you add qb-burglary to the [qb] folder inside your resources folder
+
 
