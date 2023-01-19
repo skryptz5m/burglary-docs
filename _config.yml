@@ -8,10 +8,5 @@ color_scheme: dark
 
 search_enabled: false
 
-callouts:
-  highlight:
-    color: pink
-    opacity: 0.3
-
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
