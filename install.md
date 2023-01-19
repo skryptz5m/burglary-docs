@@ -11,6 +11,7 @@ It is recommended that you add qb-burglary to the [qb] folder
 
 ## Add the inventory images
 These images can be found in the images folder qb-burglary
+
 Take the provided images and add them to your qb-inventory images folder, qb-inventory -> html -> images
 
 ## Required items
