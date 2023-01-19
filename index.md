@@ -8,7 +8,7 @@ Welcome to the documentation page! Here, you will find all the information you n
 
 Thanks for choosing SKryptz <3
 
-https://discord.gg/FnbGUkWxHY
+{: .note } Before installing make sure qb-instance has been removed from your resource folder.
 
 ----
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
