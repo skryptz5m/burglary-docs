@@ -4,8 +4,6 @@ theme: just-the-docs
 
 url: https://skryptz5m.github.io/burglary-docs/
 
-color_scheme: light
-
 search_enabled: false
 
 callouts_level: quiet # or loud
