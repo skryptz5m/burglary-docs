@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Install
+title: Config 
 ---
 
 
