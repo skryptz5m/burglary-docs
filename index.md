@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Welcome
+title: Home
+nav_order: 1
 ---
 
 
