@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Install
+layout: home
+title: Welcome
 ---
 
 
