@@ -47,4 +47,8 @@ Take the provided images and add them to your qb-inventory images folder, qb-inv
 
 You must add all of the items above to your item list, qb-core -> shared -> items.lua or shared.lua
 
+## Enabling the XP system
+You can find the boss_reputation.sql file in the qb-burglary folder
+You must add the boss_reputation table to your database, you can do this by importing the "boss_reputation.sql" file
+
 
