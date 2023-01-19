@@ -6,6 +6,9 @@ nav_order: 2
 
 # Installing qb-burglary
 
+## Add qb-burglary to your resource folder
+It is recommended that you add qb-burglary to the [qb] folder
+
 ## Required items
 > TV prop item
 ```
@@ -39,6 +42,4 @@ nav_order: 2
 
 You must add all of the items above to your item list, qb-core -> shared -> items.lua or shared.lua
 
-## Add qb-burglary to your resource folder
-It is recommended that you add qb-burglary to the [qb] folder
 
