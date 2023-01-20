@@ -1,6 +1,6 @@
 title: SKryptz | qb-burglary documentation
 description: A starter template for a Jeykll site using the Just the Docs theme!
-remote_theme: just-the-docs
+theme: just-the-docs
 
 url: https://skryptz5m.github.io/burglary-docs/
 
