@@ -4,6 +4,9 @@ title: Home
 nav_order: 1
 ---
 
+2.0 docs
+{: .label .label-purple }
+
 Welcome to the documentation page! Here, you will find all the information you need to install and configure qb-burglary effectively. We have everything you need to make the most of your experience. If you have any questions or need further assistance, please feel free to create a ticket in the discord.
 
 {: .note }
