@@ -12,7 +12,8 @@ Welcome to the documentation page! Here, you will find all the information you n
 > - If you have the cop role you will be able to enter any house
 >
 > - The bossman ped coords can be found in cl_public.lua local function SpawnBoss()
-
+>
+> - cl_public.lua contains most of the accessible code, including boss/buyer ped spawning, security panel functions, phone mail/notify functions, minigame events, reward functions, dispatch alerts
 
 ----
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
