@@ -6,6 +6,7 @@ nav_order: 2
 
 # Installing qb-burglary
 
+
 {: .required }
 > - qb-target (this resource name can be changed in config.lua, anything qb-target related can be found in cl_public.lua)
 >
