@@ -37,13 +37,11 @@ Take the provided images and add them to your qb-inventory images folder, qb-inv
 ```
 
 ```
-> --T1 safe key item
+--T1 safe key item
 ['t1_safe_key'] 			 	 = {['name'] = 't1_safe_key', 			 		['label'] = 'Key', 		['weight'] = 500, 		['type'] = 'item', 		['image'] = 'safe_key.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Probably unlocks something'},
-
-> --T2 safe key item
+--T2 safe key item
 ['t2_safe_key'] 			 	 = {['name'] = 't2_safe_key', 			 		['label'] = 'Key', 		['weight'] = 500, 		['type'] = 'item', 		['image'] = 'safe_key.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Probably unlocks something'},
-
-> --T3 safe key item
+--T3 safe key item
 ['t3_safe_key'] 			 	 = {['name'] = 't3_safe_key', 			 		['label'] = 'Key', 		['weight'] = 500, 		['type'] = 'item', 		['image'] = 'safe_key.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Probably unlocks something'},
 ```
 
