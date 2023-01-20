@@ -29,7 +29,7 @@ You can find the images in the qb-burglary folder
 
 Take the provided images and add them to your qb-inventory images folder, qb-inventory -> html -> images
 
-## Required items
+## Add the required items
 ```
 --TV prop item
 ['bigtv'] 				 	     = {['name'] = 'bigtv', 			  	  		['label'] = 'TV', 						['weight'] = 70000, 	['type'] = 'item', 		['image'] = 'stolentv.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Definitely not stolen'},
