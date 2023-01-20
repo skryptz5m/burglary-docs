@@ -6,6 +6,8 @@ url: https://skryptz5m.github.io/burglary-docs/
 
 logo: "/assets/images/sklogo.png"
 
+search_enabled: false
+
 callouts_level: quiet # or loud
 callouts:
   highlight:
