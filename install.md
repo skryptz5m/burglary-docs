@@ -8,12 +8,14 @@ nav_order: 2
 
 
 {: .required }
-> - **qb-target** (this resource name can be changed in config.lua, anything qb-target related can be found in cl_public.lua)
+> - **qb-core** This resource name can be changed in config.lua, you can also change the core object name
+> 
+> - **qb-target** This resource name can be changed in config.lua, anything qb-target related can be found in cl_public.lua
 >
-> - **qb-menu** (this resource name can be changed in config.lua, anything qb-menu related can be found in cl_public.lua)
-> 
-> - **qb-core** (this resource name can be changed in config.lua, you can also change the core object name)
-> 
+> - **qb-menu** This resource name can be changed in config.lua, anything qb-menu related can be found in cl_public.lua
+>
+> - **oxmysql** This is only required if you are using levels
+>
 > - Server version **3245+** / OneSync enabled
 
 ## Add qb-burglary to your resource folder
