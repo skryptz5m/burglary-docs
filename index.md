@@ -7,7 +7,12 @@ nav_order: 1
 Welcome to the documentation page! Here, you will find all the information you need to install and configure qb-burglary effectively. We have everything you need to make the most of your experience. If you have any questions or need further assistance, please feel free to create a ticket in the discord.
 
 {: .note }
-If you are struggling to locate the asset on keymaster, look for "qb-instance"
+> - If you are struggling to locate the asset on keymaster, look for "qb-instance"
+> 
+> - If you have the cop role you will be able to enter any house
+>
+> - The bossman ped coords can be found in cl_public.lua local function SpawnBoss()
+
 
 ----
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
