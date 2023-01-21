@@ -7,6 +7,7 @@ nav_order: 3
 # Configuring qb-burglary (config.lua)
 
 Open the main config file (config.lua) and make sure the required resource names are the same as the resources on your server
+
 ![image](https://user-images.githubusercontent.com/123037761/213881742-2261f909-2291-47af-b9dc-8b0d14d0561d.png)
 
 {: .note }
@@ -15,6 +16,7 @@ If you have not renamed your server resources, you do not need to change the res
 ## Changing the minigame
 
 You can change the minigame for breaking in, disabling the security and cracking safes in the main config
+
 ![image](https://user-images.githubusercontent.com/123037761/213882913-4dec5922-7064-4411-9c5f-f9604e4cd3e1.png)
 
 ### Current minigames for Config.DoorSkillcheck
@@ -35,8 +37,10 @@ You can change the minigame for breaking in, disabling the security and cracking
 - "square" ()
 
 The events for these minigames can be found cl_public.lua. You can modify these events or add a new event for your own minigame.
+
 ![image](https://user-images.githubusercontent.com/123037761/213883117-18dff52b-6b01-4669-8166-c3e59cf83161.png)
 
 The minigame events shown above are handled by these functions, also in cl_public.lua.
+
 ![image](https://user-images.githubusercontent.com/123037761/213883202-219972bd-1690-4a09-9c74-766907438ced.png)
 
