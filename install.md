@@ -22,11 +22,10 @@ nav_order: 2
 If you have renamed your qb-target resource you must change the dependency name in fxmanifest.lua
 
 ## Add qb-burglary to your resource folder
-It is recommended that you add qb-burglary to the [qb] folder
+It is recommended that you add qb-burglary to the [qb] folder.
 
 ## Add the inventory images
-You can find the images in the qb-burglary folder
-
+You can find the images in the qb-burglary folder.
 Take the provided images and add them to your qb-inventory images folder, qb-inventory -> html -> images
 
 ## Add the required items
@@ -53,7 +52,7 @@ Take the provided images and add them to your qb-inventory images folder, qb-inv
 You must add all of the items above to your item list, qb-core -> shared -> items.lua or shared.lua
 
 ## Enabling XP/Levels
-You can find the boss_reputation.sql file in the qb-burglary folder
+You can find the boss_reputation.sql file in the qb-burglary folder.
 
 You must add the boss_reputation table to your database, you can do this by importing the "boss_reputation.sql" file
 
