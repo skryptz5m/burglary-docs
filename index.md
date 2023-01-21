@@ -19,7 +19,6 @@ Welcome to the documentation page! Here, you will find all the information you n
 > - cl_public.lua contains most of the accessible code, including boss/buyer ped spawning, security panel functions, phone mail/notify functions, minigame events, reward functions, dispatch alerts
 >
 > - You will no longer have to call the quick fix TriggerEvent('burglary:client:fixbucket'), this will be handled automatically
-> 
 ----
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
 [GitHub Pages]: https://docs.github.com/en/pages
