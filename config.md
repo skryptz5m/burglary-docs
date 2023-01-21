@@ -19,19 +19,19 @@ You can change the minigame for breaking in, disabling the security and cracking
 
 ![image](https://user-images.githubusercontent.com/123037761/213882913-4dec5922-7064-4411-9c5f-f9604e4cd3e1.png)
 
-Current minigames for Config.DoorSkillcheck
+### Current minigames for Config.DoorSkillcheck
 - "circle" ()
 - "ps-circle" ()
 - "square" ()
 - "lockpick" ()
 
-Current minigames for Config.SecuritySkillcheck
+### Current minigames for Config.SecuritySkillcheck
 - "circle" ()
 - "ps-circle" ()
 - "ps-scrambler" ()
 - "square" ()
 
-Current minigames for Config.SafeSkillcheck
+### Current minigames for Config.SafeSkillcheck
 - "circle" ()
 - "ps-circle" ()
 - "square" ()
