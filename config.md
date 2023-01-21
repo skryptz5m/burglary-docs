@@ -17,20 +17,21 @@ If you have not renamed your server resources, you do not need to change the res
 
 You can change the minigame for breaking in, disabling the security and cracking safes in the main config
 
-```
--- Minigame for breaking in
+![image](https://user-images.githubusercontent.com/123037761/213882913-4dec5922-7064-4411-9c5f-f9604e4cd3e1.png)
 
-- circle
-- ps-circle
-- square
-- lockpick
+Current minigames for Config.DoorSkillcheck
+- "circle" ()
+- "ps-circle" ()
+- "square" ()
+- "lockpick" ()
 
-Config.DoorSkillcheck = "lockpick"
+Current minigames for Config.SecuritySkillcheck
+- "circle" ()
+- "ps-circle" ()
+- "ps-scrambler" ()
+- "square" ()
 
--- Minigame for disabling the security
-Config.SecuritySkillcheck = "square"
-
--- Minigame for cracking the safe
-Config.SafeSkillcheck = "square"
-```
-
+Current minigames for Config.SafeSkillcheck
+- "circle" ()
+- "ps-circle" ()
+- "square" ()
