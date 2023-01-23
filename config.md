@@ -44,21 +44,21 @@ Config.SafeSkillcheck = "square"
 ```
 
 ### Current minigames for Config.DoorSkillcheck
-- "circle" ()
-- "ps-circle" ()
-- "square" ()
-- "lockpick" ()
+- "circle" - https://github.com/Nathan-FiveM/qb-lock
+- "ps-circle" - https://github.com/Project-Sloth/ps-ui
+- "square" - default
+- "lockpick" - default
 
 ### Current minigames for Config.SecuritySkillcheck
-- "circle" ()
-- "ps-circle" ()
-- "ps-scrambler" ()
-- "square" ()
+- "circle" - https://github.com/Nathan-FiveM/qb-lock
+- "ps-circle" - https://github.com/Project-Sloth/ps-ui
+- "ps-scrambler" - https://github.com/Project-Sloth/ps-ui
+- "square" - default
 
 ### Current minigames for Config.SafeSkillcheck
-- "circle" ()
-- "ps-circle" ()
-- "square" ()
+- "circle" - https://github.com/Nathan-FiveM/qb-lock
+- "ps-circle" - https://github.com/Project-Sloth/ps-ui
+- "square" - default
 
 ## Adding a minigame
 
