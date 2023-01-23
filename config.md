@@ -8,16 +8,40 @@ nav_order: 3
 
 Open the main config file (config.lua) and make sure the required resource names are the same as the resources on your server
 
-![image](https://user-images.githubusercontent.com/123037761/213881742-2261f909-2291-47af-b9dc-8b0d14d0561d.png)
+```
+-- If you have renamed your QBCore object replace "QBCore" with the name of your core
+Config.CoreObjectName = "QBCore"
+
+-- exports[Config.CoreResourceName]:GetCoreObject()
+Config.CoreResourceName = "qb-core"
+
+-- exports[TargetResourceName]:AddZone
+Config.TargetResourceName = "qb-target"
+
+-- exports[Config.MenuResourceName]:openMenu
+Config.MenuResourceName = "qb-menu"
+
+-- TriggerEvent(Config.LockpickResourceName..':client:openLockpick')
+Config.LockpickResourceName = "qb-lockpick"
+```
 
 {: .note }
-If you have not renamed your server resources, you do not need to change the resource names shown in the image above
+If you have not renamed your server resources, you do not need to change the resource names shown in the code block above.
 
 ## Changing the minigame
 
 You can change the minigame for breaking in, disabling the security and cracking safes in the main config
 
-![image](https://user-images.githubusercontent.com/123037761/213882913-4dec5922-7064-4411-9c5f-f9604e4cd3e1.png)
+```
+-- Set the skill check minigame for lockpicking a door
+Config.DoorSkillcheck = "lockpick"
+
+-- Set the skill check minigame for disabling the security
+Config.SecuritySkillcheck = "square"
+
+-- Set the skill check minigame for cracking the safe
+Config.SafeSkillcheck = "square"
+```
 
 ### Current minigames for Config.DoorSkillcheck
 - "circle" ()
@@ -35,6 +59,8 @@ You can change the minigame for breaking in, disabling the security and cracking
 - "circle" ()
 - "ps-circle" ()
 - "square" ()
+
+## Adding a minigame
 
 The events for these minigames can be found cl_public.lua. You can modify these events or add a new event for your own minigame.
 
