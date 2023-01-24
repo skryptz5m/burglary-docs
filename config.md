@@ -103,3 +103,45 @@ Config.JobTime = { 325, 385 } -- [1] = min seconds, [2] = max seconds
 
 If you leave the house after it has expired the job will end
 
+## Using phone mail
+
+If enabled you will receive job offers and information via the phone mail app.
+
+```
+-- If true the player will be emailed a job offer using qb-phone, the offer must be accepted
+-- If false the player will be notified via QB.Notify or the notify resource you are using
+Config.QbPhoneMail = true
+```
+
+You can change the phone events used for sending mail in cl_public.lua.
+
+```
+--- Send job offer via mail qb-phone
+--- @param tier integer
+function SendJobMail(tier)
+    TriggerServerEvent("qb-phone:server:sendNewMail", {
+        sender = "Bossman",
+        subject = "T"..tier.." ".."job offer",
+        message = Config.Prompts["requested3"],
+        button = 
+        {                    
+            enabled = true,
+            buttonEvent = "burglary:client:AcceptHouse",
+            buttonData = tier
+        }
+    })
+end
+
+--- Send job info via mail qb-phone
+--- @param message string
+--- @param subject string
+function SendMail(message, subject)
+    TriggerServerEvent("qb-phone:server:sendNewMail", {
+        sender = "Bossman",
+        subject = subject,
+        message = message,
+        button = {}
+    })
+end
+```
+
