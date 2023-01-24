@@ -70,3 +70,16 @@ The minigame events shown above are handled by these functions, also in cl_publi
 
 ![image](https://user-images.githubusercontent.com/123037761/213883202-219972bd-1690-4a09-9c74-766907438ced.png)
 
+## Breaking in time
+
+You can change the time period for robbing houses in the main config. You will not be able to start the break in minigame if it is too early.
+
+```
+-- Example: if the time is 5AM or later you cannot break in
+Config.MinTime = 5
+
+-- Example: if the time is 11PM or later you can break in
+Config.MaxTime = 23
+```
+
+You can completely remove the time check from the minigame events in cl_public.lua. Look for the events shown in the adding a minigame section above.
