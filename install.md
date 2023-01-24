@@ -57,7 +57,7 @@ You must add the boss_reputation table to your database, you can do this by impo
 
 ## Finding the bossman
 
-You can change the bossman coords in cl_public.lua, this will be moved to the main config once rewritten.
+You can change the bossman coords in cl_public.lua. Bossman options will be moved to the main config once rewritten.
 
 ```
 local function SpawnBoss()
