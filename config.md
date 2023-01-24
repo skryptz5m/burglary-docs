@@ -145,3 +145,33 @@ function SendMail(message, subject)
 end
 ```
 
+## Using a different notify
+
+You can disable the QB notifications in the main config
+
+```
+-- If true QB.Notify notifications will be used
+-- If false a different notify resource can be used, you can add your own notify trigger in cl_public.lua
+Config.QbNotify = false
+```
+
+Go to cl_public.lua and find the QbNotify function
+
+```
+--- Handle notifications
+--- @param message string
+--- @param type string
+function QbNotify(message, type)
+    if Config.QbNotify then
+        Core.Functions.Notify(message, type)
+    else
+        --- Add your own notify trigger here, you must set Config.QbNotify = false in config.lua
+        --- Example: using okokNotify
+
+        --local time = GetClockHours()
+        --exports['okokNotify']:Alert("Bossman", message, time, type)
+    end
+end
+```
+
+Add your own notify trigger/export to the else statement
