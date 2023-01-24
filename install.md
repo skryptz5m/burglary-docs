@@ -55,4 +55,29 @@ You must add all of the items above to your item list, qb-core -> shared -> item
 You can find the boss_reputation.sql file in the qb-burglary folder.
 You must add the boss_reputation table to your database, you can do this by importing the "boss_reputation.sql" file
 
+## Finding the bossman
+
+You can change the bossman coords and more in cl_public.lua
+
+```
+local function SpawnBoss()
+    if bossEntity == nil then
+        local scenario = "WORLD_HUMAN_DRUG_DEALER"
+        local pos = vector4(246.25, 370.86, 105.74 - 1.0, 158.99) -- Change coords here
+        local model = "ig_malc"
+    
+        RequestModel(model)
+        while not HasModelLoaded(model) do
+            Wait(0)
+        end
+    
+        bossEntity = CreatePed(0, model, pos.x, pos.y, pos.z, pos.w, false, false)
+        FreezeEntityPosition(bossEntity, true)
+        SetEntityInvincible(bossEntity, true)
+        SetBlockingOfNonTemporaryEvents(bossEntity, true)
+        if scenario then TaskStartScenarioInPlace(bossEntity, scenario, 0, false) end
+    end
+end
+```
+
 
