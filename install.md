@@ -19,7 +19,7 @@ nav_order: 2
 > - Server version **3245+** / OneSync enabled
 
 {: .note }
-If you have renamed your qb-target resource, or you are using another target you must change the dependency name in fxmanifest.lua
+If you have renamed your qb-target resource, or you are using another target you must change the dependency name in fxmanifest.lua. We recommend using the latest qb-target.
 
 ## Add qb-burglary to your resource folder
 It is recommended that you add qb-burglary to the [qb] folder.
