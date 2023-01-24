@@ -83,3 +83,23 @@ Config.MaxTime = 23
 ```
 
 You can completely remove the time check from the minigame events in cl_public.lua. Look for the events shown in the adding a minigame section above.
+
+## Queue and finish time
+
+You can set how long it takes to receive a job offer (seconds) in the main config
+
+```
+-- Set how long it takes for the player to receive a job (seconds)
+Config.JobWaitTime = { 285, 345 } -- [1] = min seconds, [2] = max seconds
+```
+
+You can set how long the player has to complete the job (seconds)
+
+```
+-- Set how long the player has to complete the job after entry (seconds)
+Config.JobTime = { 325, 385 } -- [1] = min seconds, [2] = max seconds
+
+```
+
+If you leave the house after it has expired the job will end
+
