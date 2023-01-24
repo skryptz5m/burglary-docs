@@ -43,19 +43,19 @@ Config.SecuritySkillcheck = "square"
 Config.SafeSkillcheck = "square"
 ```
 
-### Current minigames for Config.DoorSkillcheck
+### Minigames for Config.DoorSkillcheck
 - "circle" - [qb-lock](https://github.com/Nathan-FiveM/qb-lock)
 - "ps-circle" - [ps-ui](https://github.com/Project-Sloth/ps-ui)
 - "square" - [qb-skillbar](https://github.com/qbcore-framework/qb-skillbar)
 - "lockpick" - [qb-lockpick](https://github.com/qbcore-framework/qb-lockpick)
 
-### Current minigames for Config.SecuritySkillcheck
+### Minigames for Config.SecuritySkillcheck
 - "circle" - [qb-lock](https://github.com/Nathan-FiveM/qb-lock)
 - "ps-circle" - [ps-ui](https://github.com/Project-Sloth/ps-ui)
 - "ps-scrambler" - [ps-ui](https://github.com/Project-Sloth/ps-ui)
 - "square" - [qb-skillbar](https://github.com/qbcore-framework/qb-skillbar)
 
-### Current minigames for Config.SafeSkillcheck
+### Minigames for Config.SafeSkillcheck
 - "circle" - [qb-lock](https://github.com/Nathan-FiveM/qb-lock)
 - "ps-circle" - [ps-ui](https://github.com/Project-Sloth/ps-ui)
 - "square" - [qb-skillbar](https://github.com/qbcore-framework/qb-skillbar)
