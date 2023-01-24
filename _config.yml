@@ -1,10 +1,8 @@
-title: qb-burglary documentation
+title: qb-burglary docs
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
 url: https://skryptz5m.github.io/burglary-docs/
-
-logo: "/assets/images/sklogo.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
