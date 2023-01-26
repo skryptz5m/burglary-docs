@@ -84,6 +84,15 @@ Config.MaxTime = 23
 
 You can completely remove the time check from the minigame events in cl_public.lua. Look for the events shown in the adding a minigame section [above](https://skryptz5m.github.io/burglary-docs/config.html#adding-a-minigame).
 
+```
+-- Remove this to remove the time check
+local hours = GetClockHours()
+if hours >= Config.MinTime and hours < Config.MaxTime then
+    QbNotify(Config.Prompts["time"], "error")
+    return
+end
+```
+
 ## Queue and finish time
 
 You can set how long it takes to receive a job offer (seconds) in the main config
