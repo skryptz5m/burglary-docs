@@ -82,7 +82,7 @@ Config.MinTime = 5
 Config.MaxTime = 23
 ```
 
-You can completely remove the time check from the minigame events in cl_public.lua. Look for the events shown in the adding a minigame section above.
+You can completely remove the time check from the minigame events in cl_public.lua. Look for the events shown in the adding a minigame section [above](https://skryptz5m.github.io/burglary-docs/config.html#adding-a-minigame).
 
 ## Queue and finish time
 
