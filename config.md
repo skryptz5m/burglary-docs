@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Config
+title: Main config
 nav_order: 3
 ---
 
