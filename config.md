@@ -98,7 +98,6 @@ You can set how long the player has to complete the job (seconds)
 ```
 -- Set how long the player has to complete the job after entry (seconds)
 Config.JobTime = { 325, 385 } -- [1] = min seconds, [2] = max seconds
-
 ```
 
 If you leave the house after it has expired the job will end
