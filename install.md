@@ -51,10 +51,6 @@ Take the provided images and add them to your qb-inventory images folder, qb-inv
 
 You must add all of the items above to your item list, qb-core -> shared -> items.lua or shared.lua
 
-## Enabling XP/Levels
-You can find the boss_reputation.sql file in the qb-burglary folder.
-You must add the boss_reputation table to your database, you can do this by importing the "boss_reputation.sql" file
-
 ## Finding the bossman
 
 You can change the bossman coords in cl_public.lua. Bossman options will be moved to the main config once rewritten.
@@ -79,5 +75,9 @@ local function SpawnBoss()
     end
 end
 ```
+
+## Enabling XP/Levels
+You can find the boss_reputation.sql file in the qb-burglary folder.
+You must add the boss_reputation table to your database, you can do this by importing the "boss_reputation.sql" file
 
 
