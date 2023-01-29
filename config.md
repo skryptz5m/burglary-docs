@@ -376,9 +376,7 @@ end
 exports['ps-dispatch']:Shooting(pos or nil)
 ```
 
-Do the same again for fighting
-
-In ps-dispatch -> cl_loops.lua look for ```exports['ps-dispatch']:Fight()``` around line 50
+Do the same again for fighting, in ps-dispatch -> cl_loops.lua look for ```exports['ps-dispatch']:Fight()``` around line 50
 
 Replace the Fight() line with this block
 
