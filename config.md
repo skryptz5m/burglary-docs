@@ -364,7 +364,7 @@ end
 
 In ps-dispatch -> cl_loops.lua look for ```exports['ps-dispatch']:Shooting()``` around line 43
 
-Replace the Shooting line with this block
+Replace the Shooting() line with this block
 
 ```
 local house = exports['qb-burglary']:GetTier()
@@ -374,4 +374,51 @@ if house then
     pos = house[currentId]['location']
 end
 exports['ps-dispatch']:Shooting(pos or nil)
+```
+
+Do the same again for fighting
+
+In ps-dispatch -> cl_loops.lua look for ```exports['ps-dispatch']:Fight()``` around line 50
+
+Replace the Fight() line with this block
+
+```
+local house = exports['qb-burglary']:GetTier()
+local pos
+if house then
+    local currentId = exports['qb-burglary']:GetCurrentHouse()
+    pos = house[currentId]['location']
+end
+exports['ps-dispatch']:Fight(pos or nil)
+```
+
+In ps-dispatch -> cl_events.lua look for local function Fight()
+
+Replace the Fight() function with this function
+
+```
+local function Fight(housePos)
+    local currentPos = housePos or GetEntityCoords(PlayerPedId())
+    local locationInfo = getStreetandZone(currentPos)
+    local gender = GetPedGender()
+    TriggerServerEvent("dispatch:server:notify", {
+        dispatchcodename = "fight", -- has to match the codes in sv_dispatchcodes.lua so that it generates the right blip
+        dispatchCode = "10-10",
+        firstStreet = locationInfo,
+        gender = gender,
+        model = nil,
+        plate = nil,
+        priority = 2,
+        firstColor = nil,
+        automaticGunfire = false,
+        origin = {
+            x = currentPos.x,
+            y = currentPos.y,
+            z = currentPos.z
+        },
+        dispatchMessage = _U('melee'),
+        job = { "police" }
+    })
+end
+
 ```
